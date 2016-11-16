@@ -1,0 +1,30 @@
+#wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+#indicator {
+  overflow: hidden;
+  position: relative;
+  width: 70px;
+  height: 10px;
+  margin: 10px auto;
+}
+
+#indicatorList li {
+  list-style: none;
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #EEE;
+}
+
+#indicatorList li:not(:last-child) {
+  margin-right: 10px;
+}
